@@ -35,7 +35,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 65vh;
     padding: 7rem 9% 2rem;
 }
 
@@ -571,6 +571,10 @@ transition: .5s ease;
         background: rgba(25, 31, 54, 0.8); /* Warna dengan transparansi */
         backdrop-filter: blur(10px); /* Efek blur */
         transition: background 0.3s ease-in-out;
+    }
+
+    .home-content {
+        margin-bottom: 3rem;
     }
 
     #menu-icon {
